@@ -4,11 +4,11 @@ import FooterLinks from './modules/FooterLinks';
 import FooterCopyright from './modules/FooterCopyright';
 
 const FooterDefault = () => (
-    <footer className="ps-footer">
-        <div className="container">
+    <footer className="ps-footer" style={{backgroundColor:"#d188a3a8"}}>
+        <div className="container"style={{backgroundColor:"#d188a3a8"}}>
             <FooterWidgets />
            
-            <FooterCopyright />
+            <FooterCopyright style={{backgroundColor:"#d188a3a8"}}/>
         </div>
     </footer>
 );

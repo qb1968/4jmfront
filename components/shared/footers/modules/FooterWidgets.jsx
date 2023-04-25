@@ -8,27 +8,27 @@ const FooterWidgets = () => (
             
         </aside>
         <aside className="widget widget_footer">
-            <h4 className="widget-title">Quick links</h4>
+            <h4 className="widget-title" style={{fontWeight:"bold"}}>Quick links</h4>
             <ul className="ps-list--link">
                 <li>
                     <Link href="/page/blank">
-                        <a>Policy</a>
+                        <a style={{fontWeight:"bold",color:"black"}}>Policy</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="/page/blank">
-                        <a>Term & Condition</a>
+                        <a style={{fontWeight:"bold"}}>Term & Condition</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/page/blank">
-                        <a>Shipping</a>
+                        <a style={{fontWeight:"bold"}}>Shipping</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/page/blank">
-                        <a>Return</a>
+                        <a style={{fontWeight:"bold"}}>Return</a>
                     </Link>
                 </li>
               
@@ -36,24 +36,24 @@ const FooterWidgets = () => (
         </aside>
         
         <aside className="widget widget_footer">
-            <h4 className="widget-title">Bussiness</h4>
+            <h4 className="widget-title">Business</h4>
             <ul className="ps-list--link">
                 <li>
                     
                 </li>
                 <li>
                     <Link href="/account/checkout">
-                        <a>Checkout</a>
+                        <a style={{fontWeight:"bold"}}>Checkout</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/account/user-information">
-                        <a>My account</a>
+                        <a style={{fontWeight:"bold"}}>My account</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/shop">
-                        <a>Shop</a>
+                        <a style={{fontWeight:"bold"}}>Shop</a>
                     </Link>
                 </li>
             </ul>

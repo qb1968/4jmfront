@@ -7,11 +7,7 @@
                 
             },
            
-            {
-                "text": "About",
-                "url": "/page/about-us"
-               
-            },
+           
              {
             
             "text": "Stationary",
@@ -58,7 +54,11 @@
             
             "text": "Custom Orders",
             "url": "category/custom-orders"
-        }
+        }, {
+                "text": "About",
+                "url": "/page/about-us"
+               
+            }
         ]
     }
     
