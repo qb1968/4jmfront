@@ -1,0 +1,69 @@
+{
+    "menuPrimary": {
+        "menu_1": [
+            {
+                "text": "Home",
+                "url": "/"
+                
+            },
+           
+            {
+                "text": "About",
+                "url": "/page/about-us"
+               
+            },
+             {
+            
+            "text": "Stationary",
+            "url": "/category/stationary"
+            
+        },
+        {
+            
+            "text": "Apparel",
+            "url": "/category/apparel"
+        },
+        {
+            
+            "text": "Badge Reel & Buddy",
+            "url": "/category/badge-reel-and-buddy"
+        },
+        {
+           
+            "text": "Tumblers/Cups",
+            "url": "/category/tumblerscups"
+        },
+        {
+           
+            "text": "Pens",
+            "url": "/category/pens"
+        },
+        
+        {
+           
+            "text": "Gift Sets",
+            "url": "/category/gift-sets"
+        },
+        {
+           
+            "text": "Keychains",
+            "url": "/category/keychains"
+        },
+        {
+           
+            "text": "Car Coaster",
+            "url": "/category/car-coaster"
+        },
+        {
+            
+            "text": "Custom Orders",
+            "url": "category/custom-orders"
+        }
+        ]
+    }
+    
+       
+      
+       
+    
+}
