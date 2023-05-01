@@ -19,16 +19,11 @@ const ProductDealOfDay = ({ product }) => {
                 <ModuleProductActions product={product} />
             </div>
             <div className="ps-product__container">
-                <Link href="/shop">
-                    <a className="ps-product__vendor">Young Shop</a>
-                </Link>
+               
                 <div className="ps-product__content">
                     {StrapiProductPriceExpanded(product)}
                     {title(product)}
-                    <div className="ps-product__rating">
-                        <Rating />
-                        <span>{product.ratingCount}</span>
-                    </div>
+                    
                     <ModuleProductProgressbar product={product} />
                 </div>
             </div>

@@ -9,117 +9,22 @@ class AboutAwards extends Component {
     }
 
     render() {
-        const carouselSetting = {
-            dots: false,
-            arrows: false,
-            infinite: true,
-            speed: 100,
-            slidesToShow: 5,
-            slidesToScroll: 3,
-            responsive: [
-                {
-                    breakpoint: 1366,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: false,
-                    },
-                },
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 4,
-                        infinite: true,
-                        dots: true,
-                        arrows: false,
-                    },
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 2,
-                        dots: true,
-                        arrows: false,
-                    },
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 2,
-                        dots: true,
-                        arrows: false,
-                    },
-                },
-            ],
-        };
+       
         return (
             <div className="ps-about-awards">
                 <div className="container">
                     <div className="ps-section__header">
-                        <h4>Awards & Recognition</h4>
+                        <h4></h4>
                         <p>
-                            Industry leaders and influencers recognize Overstock
-                            as one of the most trust worthy retail companies in
-                            the U.S., ranking high for both customer and
-                            employee satisfaction.
+                           Melissa is originally from New Jersey but moved to Maryland by way of her military husband. 
+Melissa loves the challenge of creating custom designs for her clients…her knack for organization and her ability to thrive under pressure helps her navigate her busy schedule. Melissa has worked in dentistry for 13 years, so creating custom pieces such as badge reels is one of her favorite things to do.  Melissa is excited to bring her skill set to her customers, and surrounding community. 
+Melissa adores her veteran husband and three children…she can’t get enough of them! When Melissa isn’t in the dental office or working for her business, this easy-going crafter tends to her 22’ x 22’ fruit and veggie garden. You can also find Melissa savoring a cup of coffee and admiring her flower beds on the weekends. 
+
+<p>Fun Fact: “I am all about a creative DIY project!"</p>
                         </p>
                     </div>
                     <div className="ps-section__content">
-                        <Slider {...carouselSetting} className="ps-carousel">
-                            <div className="item">
-                                <Link href="/page/blank">
-                                    <a>
-                                        <img
-                                            src="/static/img/awards/1.png"
-                                            alt="martfury"
-                                        />
-                                    </a>
-                                </Link>
-                            </div>
-                            <div className="item">
-                                <Link href="/page/blank">
-                                    <a>
-                                        <img
-                                            src="/static/img/awards/2.png"
-                                            alt="martfury"
-                                        />
-                                    </a>
-                                </Link>
-                            </div>
-                            <div className="item">
-                                <Link href="/page/blank">
-                                    <a>
-                                        <img
-                                            src="/static/img/awards/3.png"
-                                            alt="martfury"
-                                        />
-                                    </a>
-                                </Link>
-                            </div>
-                            <div className="item">
-                                <Link href="/page/blank">
-                                    <a>
-                                        <img
-                                            src="/static/img/awards/4.png"
-                                            alt="martfury"
-                                        />
-                                    </a>
-                                </Link>
-                            </div>
-                            <div className="item">
-                                <Link href="/page/blank">
-                                    <a>
-                                        <img
-                                            src="/static/img/awards/5.png"
-                                            alt="martfury"
-                                        />
-                                    </a>
-                                </Link>
-                            </div>
-                        </Slider>
+                       
                     </div>
                 </div>
             </div>

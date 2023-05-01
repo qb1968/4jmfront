@@ -10,6 +10,7 @@
         "start": "next start -p 3001"
     },
     "dependencies": {
+        "@chec/commerce.js": "^2.8.0",
         "antd": "^4.5.2",
         "axios": "^0.19.2",
         "es6-promise": "^4.2.8",

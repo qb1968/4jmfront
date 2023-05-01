@@ -35,11 +35,7 @@
             "url": "/category/pens"
         },
         
-        {
-           
-            "text": "Gift Sets",
-            "url": "/category/gift-sets"
-        },
+       
         {
            
             "text": "Keychains",
@@ -49,6 +45,11 @@
            
             "text": "Car Coaster",
             "url": "/category/car-coaster"
+        },
+         {
+           
+            "text": "Gift Sets",
+            "url": "/category/gift-sets"
         },
         {
             
@@ -60,7 +61,49 @@
                
             }
         ]
-    }
+    },
+    
+        "text": "Shop",
+        "url": "/shop",
+        "extraClass": "menu-item-has-children has-mega-menu",
+        "subClass": "sub-menu",
+        "mega": "true",
+        "megaContent": [
+            {
+                "heading": "Catalog Pages",
+                "megaItems": [
+                    {
+                        "text": "Shop Default",
+                        "url": "/shop"
+                    }
+                   
+                ]
+            },
+            {
+                "heading": "Product Layout",
+                "megaItems": [
+                    {
+                        "text": "Default",
+                        "url": "/product/3"
+                    }
+                ]
+            },
+            {
+                "heading": "Product Types",
+                "megaItems": [
+                   
+                    {
+                        "text": "Image swatches",
+                        "url": "/product/image-swatches/11"
+                    },
+                    {
+                        "text": "On sale",
+                        "url": "/product/on-sale/7"
+                    }
+                ]
+            }
+        ]
+    
     
        
       

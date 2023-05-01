@@ -4,198 +4,40 @@ const OurTeam = () => (
     <div className="ps-our-team">
         <div className="container">
             <div className="ps-section__header">
-                <h3>Meet Our Leaders</h3>
+                <h3>Meet The Owner</h3>
             </div>
             <div className="ps-section__content">
-                <figure>
+                <figure style={{width:"100%"}}>
                     <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/1.jpg" alt="martfury" />
+                        <img src="/static/img/bg/bio.jpg" alt="martfury" />
                         <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            <h4>Melissa Cortes</h4>
+                            <p>Owner</p>
+                           
                         </div>
+                        <div className="container">
+                    <div className="ps-section__header">
+                        <h4></h4>
+                        <p>
+                           Melissa is originally from New Jersey but moved to Maryland by way of her military husband. 
+Melissa loves the challenge of creating custom designs for her clients…her knack for organization and her ability to thrive under pressure helps her navigate her busy schedule. Melissa has worked in dentistry for 13 years, so creating custom pieces such as badge reels is one of her favorite things to do.  Melissa is excited to bring her skill set to her customers, and surrounding community. 
+Melissa adores her veteran husband and three children…she can’t get enough of them! When Melissa isn’t in the dental office or working for her business, this easy-going crafter tends to her 22’ x 22’ fruit and veggie garden. You can also find Melissa savoring a cup of coffee and admiring her flower beds on the weekends. 
+
+<p>Fun Fact: “I am all about a creative DIY project!"</p>
+                        </p>
                     </div>
-                </figure>
-                <figure>
-                    <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/2.jpg" alt="martfury" />
-                        <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                  
+                </div>
                     </div>
+                    
                 </figure>
-                <figure>
-                    <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/3.jpg" alt="martfury" />
-                        <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </figure>
-                <figure>
-                    <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/4.jpg" alt="martfury" />
-                        <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </figure>
-                <figure>
-                    <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/5.jpg" alt="martfury" />
-                        <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </figure>
-                <figure>
-                    <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/6.jpg" alt="martfury" />
-                        <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </figure>
-                <figure>
-                    <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/7.jpg" alt="martfury" />
-                        <div className="ps-block__content">
-                            <h4>Robert Downey Jr</h4>
-                            <p>CEO Fouder</p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </figure>
-                <figure data-mh="our-team">
-                    <div className="ps-block--ourteam blank">
-                        <a href="#">
-                            Become <br /> member in <br /> team
-                        </a>
-                    </div>
-                </figure>
+               
+               
+               
+                
+                
+               
+               
             </div>
         </div>
     </div>

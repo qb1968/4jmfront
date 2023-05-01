@@ -2,6 +2,7 @@ import React from 'react';
 import ThumbnailDefault from '~/components/elements/detail/thumbnail/ThumbnailDefault';
 import DefaultDescription from '~/components/elements/detail/description/DefaultDescription';
 import ModuleProductDetailDescription from '~/components/elements/detail/modules/ModuleProductDetailDescription';
+import ModuleProductHasVariants from './modules/ModuleProductHasVariants';
 import ModuleDetailShoppingActions from '~/components/elements/detail/modules/ModuleDetailShoppingActions';
 import ModuleProductDetailSpecification from '~/components/elements/detail/modules/ModuleProductDetailSpecification';
 import ModuleProductDetailSharing from '~/components/elements/detail/modules/ModuleProductDetailSharing';
@@ -16,6 +17,7 @@ const ProductDetailFullwidth = ({ product }) => {
                 <div className="ps-product__info">
                     <ModuleDetailTopInformation product={product} />
                     <ModuleProductDetailDescription product={product} />
+                    
                     <ModuleDetailShoppingActions product={product} />
                     <ModuleProductDetailSpecification />
                     <ModuleProductDetailSharing />

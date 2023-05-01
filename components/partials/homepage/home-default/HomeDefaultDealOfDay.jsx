@@ -31,7 +31,7 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
             productItemsView = <p>No product(s) found.</p>;
         }
     } else {
-        const skeletons = generateTempArray(6).map((item) => (
+        const skeletons = generateTempArray(1).map((item) => (
             <div className="col-xl-2 col-lg-3 col-sm-3 col-6" key={item}>
                 <SkeletonProduct />
             </div>
@@ -43,14 +43,12 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
         <div className="ps-deal-of-day">
             <div className="ps-container">
                 <div className="ps-section__header">
-                    <div className="ps-block--countdown-deal">
+                   
                         <div className="ps-block__left">
                             <h1>Sale Items</h1>
                         </div>
-                        <div className="ps-block__right">
-                           
-                        </div>
-                    </div>
+                       
+                    
                    
                 </div>
                 <div className="ps-section__content">{productItemsView}</div>
